@@ -2,7 +2,7 @@ import 'package:flutter_proyect_1/horario.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:flutter/material.dart';
 import 'constants.dart';
-
+//SAMUEL QUENTA CARVAJAL
 class PageInit extends StatefulWidget {
   @override
   _PageInitState createState() => _PageInitState();
@@ -64,11 +64,9 @@ class _PageInitState extends State<PageInit> {
             Container(
               height: MediaQuery.of(context).size.height,
               margin: EdgeInsets.symmetric(horizontal: 20),
-              // color: Colors.red,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(15),
-                // gradient: gradient,
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -125,13 +123,11 @@ class _PageInitState extends State<PageInit> {
                         Icons.arrow_forward_ios,
                         color: Colors.black,
                       ),
-                      // minLeadingWidth: ,
                       minVerticalPadding: 18,
                       subtitle: Text(
                         '8 hurs sleep',
                         style: TextStyle(fontSize: 18),
                       ),
-                      // selected: true,
                     ),
                   ),
                   padding2,
